@@ -13,7 +13,6 @@ function formSubmitting(event) {
 
     if (email === "" ||  password === "") {
         alert('All form fields must be filled in');
-        form.reset()
         return
     }
     
